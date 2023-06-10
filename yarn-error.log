@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\nishant\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\nishant\Git\cmd;C:\opencv\build\x64\vc14\bin;C:\splite;C:\sqlite;C:\Users\nishant\.jdks\openjdk-14.0.1\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\MinGW\bin;C:\sqlite-tools-win32-x86-3360000\sqlite-tools-win32-x86-3360000;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nishant\AppData\Local\Microsoft\WindowsApps;C:\Users\nishant\AppData\Local\GitHubDesktop\bin;C:\Users\nishant\.jdks\openjdk-14.0.1\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\flutter_windows_2.2.2-stable\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Program Files\nodejs;C:\Users\nishant\.dotnet\tools;C:\Users\nishant\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\nishant\composer;C:\Users\nishant\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\nishant\AppData\Roaming\npm;C:\Users\nishant\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\nishant\AppData\Local\Yarn\Cache\v6\npm-@nomicfoundation-ethereumjs-block-5.0.1-6f89664f55febbd723195b6d0974773d29ee133d-integrity\node_modules\@nomicfoundation\ethereumjs-block\LICENSE' -> 'C:\Users\nishant\desktop\blockchain\hardhat-smartcontract-lottery-fcc\node_modules\@nomicfoundation\ethereumjs-block\LICENSE'
+
+npm manifest: 
+  {
+    "name": "hardhat-smartcontract-lottery-fcc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "hardhat": "^2.14.1"
+    },
+    "devDependencies": {
+      "@chainlink/contracts": "^0.6.1",
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+      "@nomiclabs/hardhat-etherscan": "^3.1.7",
+      "@nomiclabs/hardhat-waffle": "^2.0.6",
+      "chai": "^4.3.7",
+      "dotenv": "^16.1.3",
+      "ethereum-waffle": "^4.0.10",
+      "ethers": "^5.4.1",
+      "hardhat-contract-sizer": "^2.9.0",
+      "hardhat-deploy": "^0.11.30",
+      "hardhat-gas-reporter": "^1.0.9",
+      "prettier": "^2.8.8",
+      "prettier-plugin-solidity": "^1.1.3",
+      "solhint": "^3.4.1",
+      "solidity-coverage": "^0.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
